@@ -36,3 +36,16 @@ As you can see, I have added functionality to verify and compare signatures—th
 
 <img width="690" height="502" alt="изображение" src="https://github.com/user-attachments/assets/02063c48-e53a-48dc-9167-51f2c8151997" />
 
+
+# About EDQSA
+
+<img width="2032" height="401" alt="изображение" src="https://github.com/user-attachments/assets/e7737021-1e76-44e2-9c8d-38a930aa77bf" />
+
+This is the core class in the code. It takes two signatures as arguments. As mentioned earlier, we combine these signatures and use HKDF to derive a key. There is also a feature for verifying signatures. You might ask: how can a signature be verified if the algorithm is described as "one-time"? The answer is simple: to perform a verification, we take the token in question and provide the signatures, salt, and "info" parameter as input data. Essentially, we regenerate a token based on this input and compare it to the original. An important note: the resulting token is in a byte format; use the `hex()` method to represent it as a hexadecimal string.
+
+
+#About example.py
+
+<img width="2003" height="234" alt="изображение" src="https://github.com/user-attachments/assets/fdad6e69-704f-4236-9684-acfbe1be9a2e" />
+
+The `example.py` file contains an example of how to use the program. It demonstrates generating two signatures and deriving the final token. Naturally, `example.py` does not showcase the full range of functionality—it focuses specifically on the generation of one-time tokens.
