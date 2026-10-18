@@ -15,4 +15,5 @@ As of 2026, corporations such as IBM and Microsoft are developing quantum comput
 
 Returning to the topic at hand: thanks to the work of scientists globally, the advanced Dilithium digital signature algorithm has been developed. Based on the concept of quantum lattices, it is designed to be resistant to quantum computing. Meanwhile, the time-tested Ed25519 signature remains a reliable standard, still widely used today in protocols such as SSH. My algorithm generates one lightweight Ed25519 signature and one heavyweight Dilithium signature; these, along with additional data—such as a salt and an "info" parameter—are then fed into a key derivation function (HKDF). This produces a final key of arbitrary length, composed of both the lightweight and heavyweight signatures. Crucially, the algorithm is one-time use; the resulting output cannot be decrypted, meaning it functions strictly in one direction. The core purpose is to serve as definitive proof that a specific signature belongs to a specific owner—and to no one else.
 
-![Uploading изображение.png…]()
+<img width="1039" height="1404" alt="изображение" src="https://github.com/user-attachments/assets/dddda5ee-e32c-4e11-9116-96a8f52c51bb" />
+
