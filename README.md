@@ -61,7 +61,37 @@ The first class contains general methods that are subsequently inherited by the 
 # License
 To save you from having to look up the LICENSE file, I have included its contents here. The license is also stated at the very top of the `edqsa.py` file:
 
+```
 
+MIT License
 
+Copyright (c) 2026 Vesel4ak31
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+# On Improving the Algorithm and the Origin of the Idea
+
+The idea for this algorithm came to me about a year ago, while I was reading David Wong’s book *Real World Cryptography*. The author mentioned that it would be interesting to see a hybrid signature algorithm. Something clicked in my mind at that moment; I began thinking about how to create such an algorithm, but I hit a snag regarding signature verification. Later, I concluded that it would be interesting to develop an algorithm for one-time tokens. I believe that, thanks to my Asperger’s syndrome, my brain is capable of retaining a vast amount of information for long periods. In any case, if anything else occurs to me, I will certainly incorporate it into the algorithm. The autistic brain is wired in such a way that when a brilliant idea emerges, I am highly likely to implement it immediately.
+
+# Disclaimer
+
+While this project is certainly unconventional, I must emphasize that the algorithm is intended solely for legal use and contains nothing malicious.
 
 
