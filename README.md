@@ -1,5 +1,13 @@
 # EDQSA is an algorithm for generating one-time secure tokens, written entirely in Python.
 
+# Installation
+
+```
+git clone https://github.com/Vesel4ak31/EDQSA.git
+cd EDQSA
+pip install -r requirements.txt --break-system-packages
+```
+
 # How it works
 
 All necessary classes are defined in the `edqsa.py` file. The algorithm itself involves creating one lightweight Ed25519 signature and one robust post-quantum Dilithium signature, which are then combined using an HMAC-based Key Derivation Function (HKDF). The operational principle is illustrated in the figure below.
