@@ -3,7 +3,9 @@
 # How it works
 
 All necessary classes are defined in the `edqsa.py` file. The algorithm itself involves creating one lightweight Ed25519 signature and one robust post-quantum Dilithium signature, which are then combined using an HMAC-based Key Derivation Function (HKDF). The operational principle is illustrated in the figure below.
-<img width="1536" height="1169" alt="AA" src="https://github.com/user-attachments/assets/c309a7e6-7364-4669-b170-c16f011d607d" />
+
+<img width="1536" height="1169" alt="изображение" src="https://github.com/user-attachments/assets/13884e39-de90-454a-8557-bbc077d57199" />
+
 
 # Why use this algorithm?
 
