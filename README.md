@@ -18,12 +18,12 @@ Returning to the topic at hand: thanks to the work of scientists globally, the a
 
 # More on Dilithium and Ed25519 Signatures
 
-<img width="510" height="357" alt="изображение" src="https://github.com/user-attachments/assets/07280689-911d-447c-bc17-245c076d4838" /> <img width="1207" height="347" alt="изображение" src="https://github.com/user-attachments/assets/4c5ac31f-1673-4dc3-9549-4b76117c14b5" />
+<img width="1207" height="347" alt="изображение" src="https://github.com/user-attachments/assets/4c5ac31f-1673-4dc3-9549-4b76117c14b5" /> <img width="510" height="357" alt="изображение" src="https://github.com/user-attachments/assets/07280689-911d-447c-bc17-245c076d4838" /> 
 
 The whole point of cryptographic signatures is to create a "fingerprint" that can be verified using cryptographic keys. My algorithm supports this as well.
 As shown in the top diagram, there are two types of signatures involved: the lightweight Ed25519 and the much more computationally intensive Dilithium. Both can be verified against their respective public and private keys to confirm that they belong to the owner. Once these signatures are combined, the result is fed into an HKDF (HMAC-based Key Derivation Function), yielding a key of any desired length.
 Furthermore, my algorithm allows you to include not just a message, but also your own public and private keys. You have full control over parameters such as key length and salt, and you can choose from several hashing algorithms: MD5, SHA-256, or SHA-512—the latter being my personal recommendation. I strongly advise against using MD5, as it is outdated and insecure; however, I have included it simply for the sake of variety.
 As you can see, I have added functionality to verify and compare signatures—this is illustrated in the screenshots below. I believe this makes the algorithm significantly more versatile.
 
-<img width="881" height="458" alt="изображение" src="https://github.com/user-attachments/assets/23c2cfb8-fda8-4085-acba-143524f8e03b" /> <img width="690" height="502" alt="изображение" src="https://github.com/user-attachments/assets/02063c48-e53a-48dc-9167-51f2c8151997" />
+<img width="690" height="502" alt="изображение" src="https://github.com/user-attachments/assets/02063c48-e53a-48dc-9167-51f2c8151997" /> <img width="881" height="458" alt="изображение" src="https://github.com/user-attachments/assets/23c2cfb8-fda8-4085-acba-143524f8e03b" /> 
 
