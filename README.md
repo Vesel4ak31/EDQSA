@@ -49,3 +49,19 @@ This is the core class in the code. It takes two signatures as arguments. As men
 <img width="2003" height="234" alt="изображение" src="https://github.com/user-attachments/assets/fdad6e69-704f-4236-9684-acfbe1be9a2e" />
 
 The `example.py` file contains an example of how to use the program. It demonstrates generating two signatures and deriving the final token. Naturally, `example.py` does not showcase the full range of functionality—it focuses specifically on the generation of one-time tokens.
+
+# The EDQSAMethods Helper Class and Exceptions
+
+<img width="2020" height="1237" alt="изображение" src="https://github.com/user-attachments/assets/ccc8c245-6624-48a8-82e7-0f425a06bc85" />
+
+The first class contains general methods that are subsequently inherited by the classes for Ed25519 and Dilithium signatures. This class includes methods for loading and saving data—such as info, salt, and keys—to and from files, making it easy to store data or retrieve it for later use. There are also several exception classes; the comments indicate the specific scenarios in which these exceptions are raised. In fact, the code is heavily commented, making it easy to follow. Should you find any part of it unclear, you can always seek assistance from an AI.
+
+<img width="1149" height="276" alt="изображение" src="https://github.com/user-attachments/assets/ec63da34-1b3a-4f4c-80e1-51f273e9837c" />
+
+# License
+To save you from having to look up the LICENSE file, I have included its contents here. The license is also stated at the very top of the `edqsa.py` file:
+
+
+
+
+
